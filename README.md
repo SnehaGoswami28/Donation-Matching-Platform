@@ -28,6 +28,7 @@ The platform ensures seamless donation requests, donor matching, and transparent
 
 ### **Database**
 - 🗄️ MongoDB
+  
 
 Donation-Matching-Platform/
 │
@@ -61,18 +62,23 @@ Donation-Matching-Platform/
 2. ## Backend Setup
 
 cd donation-platform-backend
+
 npm install
+
 npm start
 
 3. ## Frontend Setup
 
 cd donation-platform-frontend
+
 npm install
+
 npm start
 
 4. ## Open the app
 
 Backend runs on: http://localhost:5001
+
 Frontend runs on: http://localhost:3000
 
 
@@ -81,11 +87,13 @@ Frontend runs on: http://localhost:3000
 ## Auth Routes
 
 POST /api/users/register → Register new user
+
 POST /api/users/login → Login and get JWT token
 
 ## Donation Routes
 
 POST /api/donations → Create a donation
+
 GET /api/donations → Get all donations
 
 ## Request Routes
@@ -96,7 +104,9 @@ GET /api/requests → Fetch all requests
 🛡️ **Security**
 
 Passwords are hashed with bcrypt.js.
+
 JWT tokens are used for authentication.
+
 Role-based access for different dashboards.
 
 🚀 **Future Enhancements**
@@ -112,10 +122,15 @@ Role-based access for different dashboards.
 # #🤝 Contributing
 
 Contributions are always welcome!
+
 Fork the repo
+
 Create a new branch (feature-xyz)
+
 Commit changes (git commit -m "Added new feature")
+
 Push to branch
+
 Open a Pull Request
 
 ## 📜 License
@@ -125,6 +140,8 @@ This project is licensed under the MIT License.
 ## 👩‍💻 Author
 
 **Sneha Goswami**
+
 📌 Passionate about Full-Stack Development & building impactful apps.
+
 🔗 GitHub
 
